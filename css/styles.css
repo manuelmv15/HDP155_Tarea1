@@ -3,10 +3,14 @@ header {
     text-align: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
+html, body {
+
     margin: 0;
+
     padding: 0;
+
+    height: 100%;
+
 }
 
 main {
@@ -38,8 +42,8 @@ ul {
     gap: 30px; 
 }
 .InicioUl{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 2%;
     
 }
 
@@ -66,11 +70,22 @@ nav{
 footer {
     position: fixed;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     bottom: 0%;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     color: whitesmoke;
+}
+
+
+.pdf-container {
+
+    width: 100%;
+
+    height: calc(100% - 150px); /* Ajusta según la altura de tu header y footer */
+
+    overflow: hidden; /* Evita el desbordamiento */
+
 }
 
 /* Colores de fondo */

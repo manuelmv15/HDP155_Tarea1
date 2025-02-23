@@ -15,17 +15,11 @@ html, body {
 
 main {
     padding: 10px;
-
-}
-
-section {
-    margin: 20px 10px;
-    padding: 5px;
-    border-radius: 8px;
 }
 
 h1 {
-    color: whitesmoke;
+    
+    color:black;
     font-size: 40px;
     margin: 10px;
 }
@@ -36,35 +30,18 @@ ul {
     height: 30px;
     display: flex;
     margin-top: 10px; 
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    
     border-radius: 8px;
     gap: 30px; 
 }
-.InicioUl{
-    margin-left: 20%;
-    margin-right: 2%;
-    
-}
 
 
-.section {
-    display: flex;
-    justify-content:safe; 
-    align-items: center; 
-    gap: 30px;
-    margin: 20px 10px;
-    padding: 5px;
-    border-radius: 8px;
-}
+
 a{
     text-decoration: none;
     color: whitesmoke;
     font-size: 20px;
-}
-
-nav{
-    display: flex;
 }
 
 footer {

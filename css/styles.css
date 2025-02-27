@@ -10,17 +10,38 @@ html, body {
     padding: 0;
 
     height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 
 }
 
 main {
     padding: 10px;
+    flex: 1;
+}
+
+section{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    
 }
 
 h1 {
     
     color:black;
     font-size: 40px;
+    margin: 20px;
+}
+h2{
+
+    color:black;
+    font-size: 30px;
+    margin: 20px;
+}
+h3{
+    color:black;
+    font-size: 25px;
     margin: 10px;
 }
 
@@ -29,40 +50,53 @@ ul {
     padding: 5px;
     height: 30px;
     display: flex;
-    margin-top: 10px; 
     justify-content: end;
-    
-    border-radius: 8px;
+    margin: 0%;
     gap: 30px; 
+    
 }
-
-
 
 a{
     text-decoration: none;
-    color: whitesmoke;
     font-size: 20px;
 }
 
-footer {
-    position: fixed;
-    text-align: center;
-    padding: 10px;
-    bottom: 0%;
-    width: 100%;
-    margin-top: 10px;
-    color: whitesmoke;
+a:hover {
+
+    color: white; 
 }
 
+ol{
+    font-size: 20px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+p{
+    margin: 10px; 
+    padding: 10px; 
+    font-size: 20px;
+}
 
 .pdf-container {
 
     width: 100%;
 
-    height: calc(100% - 150px); /* Ajusta según la altura de tu header y footer */
+    height: calc(100% - 150px); 
 
-    overflow: hidden; /* Evita el desbordamiento */
+    overflow: hidden; 
 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
 }
 
 /* Colores de fondo */
@@ -71,3 +105,9 @@ footer {
 .backColor3 { background-color: #9a96bd; }
 .backColor4 { background-color: #b2aed5; }
 .backColor5 { background-color: #cac5ee; }
+/* Colores del letras */
+.Color1 { color: #6a678b; }
+.Color2 { color: #827fa4; }
+.Color3 { color: #9a96bd; }
+.Color4 { color: #b2aed5; }
+.Color5 { color: #cac5ee; }
